@@ -1,0 +1,12 @@
+int main(void)
+{
+    int a;
+    int b;
+    int c;
+    int d;
+    int e;
+    d=a+b;
+    c=a*d;
+    e=a+b;
+    e=d*a;
+}

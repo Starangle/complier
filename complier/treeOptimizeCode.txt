@@ -1,0 +1,62 @@
+main	:		
+addI	@pc	4	var@1
+store		@sp	var@1
+addI	@sp	4	@sp
+store		None	@sp
+addI	@sp	4	@sp
+jumpI			a
+subI	@sp	4	@sp
+load		@sp	var@2
+addI	@pc	4	var@3
+store		@sp	var@3
+addI	@sp	4	@sp
+store		None	@sp
+addI	@sp	4	@sp
+jumpI			b
+subI	@sp	4	@sp
+load		@sp	var@4
+addI	@pc	4	var@5
+store		@sp	var@5
+addI	@sp	4	@sp
+store		None	@sp
+addI	@sp	4	@sp
+jumpI			b
+subI	@sp	4	@sp
+load		@sp	var@6
+a	:		
+addI	@pc	4	var@7
+store		@sp	var@7
+addI	@sp	4	@sp
+store		None	@sp
+addI	@sp	4	@sp
+jumpI			c
+subI	@sp	4	@sp
+load		@sp	var@8
+addI	@pc	4	var@9
+store		@sp	var@9
+addI	@sp	4	@sp
+store		None	@sp
+addI	@sp	4	@sp
+jumpI			c
+subI	@sp	4	@sp
+load		@sp	var@10
+subI	@sp	4	@sp
+load		@sp	var@11
+loadI		0	var@12
+store		var@12	@sp
+addI	@sp	4	@sp
+jump			var@11
+b	:		
+subI	@sp	4	@sp
+load		@sp	var@13
+loadI		1	var@14
+store		var@14	@sp
+addI	@sp	4	@sp
+jump			var@13
+c	:		
+subI	@sp	4	@sp
+load		@sp	var@15
+loadI		2	var@16
+store		var@16	@sp
+addI	@sp	4	@sp
+jump			var@15

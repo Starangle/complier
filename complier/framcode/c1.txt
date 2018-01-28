@@ -1,0 +1,92 @@
+    def dfs_tree(self):
+        pass
+
+    def fun_declaration(self):
+        pass
+
+    def program(self):
+        pass
+
+    def declaration_list(self):
+        pass
+
+    def declaration(self):
+        pass
+
+    def var_declaration(self):
+        pass
+
+    def type_specifier(self):
+        pass
+
+    def fun_declaration(self):
+        pass
+
+    def params(self):
+        pass
+
+    def param_list(self):
+        pass
+
+    def param(self):
+        pass
+
+    def compound_stmt(self):
+        pass
+
+    def local_declarations(self):
+        pass
+
+    def statement_list(self):
+        pass
+
+    def statement(self):
+        pass
+
+    def expression_stmt(self):
+        pass
+
+    def selection_stmt(self):
+        pass
+
+    def iteration_stmt(self):
+        pass
+
+    def return_stmt(self):
+        pass
+
+    def expression(self):
+        pass
+
+    def var(self):
+        pass
+
+    def simple_expression(self):
+        pass
+
+    def relop(self):
+        pass
+
+    def additive_expression(self):
+        pass
+
+    def addop(self):
+        pass
+
+    def term(self):
+        pass
+
+    def mulop(self):
+        pass
+
+    def factor(self):
+        pass
+
+    def call(self):
+        pass
+
+    def args(self):
+        pass
+
+    def arg_list(self):
+        pass

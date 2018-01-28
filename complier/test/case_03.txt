@@ -1,0 +1,28 @@
+int main(int xx,int yy)
+{
+    int a;
+    int b;
+    a=0;
+    if(a>0)
+    {
+        a=2+a*3;
+        if(a==5)
+        {
+            a=b+9;
+        }
+    }
+    else
+    {
+        a=1;
+    }
+    while(a>=0)
+    {
+        a=a-2;
+    }
+    a=pow2(a);
+    return a;
+}
+int pow2(int b)
+{
+    return b*b;
+}

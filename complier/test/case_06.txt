@@ -1,0 +1,19 @@
+int main(void)
+{
+    int a;
+    int b;
+    int c;
+    a=b=10;
+    c=a+b;
+    if(a==b)
+    {
+        c=a+b;
+    }
+    else
+    {
+        a=a+b;
+        c=a-b;
+    }
+    c=a-b;
+    return 0;
+}

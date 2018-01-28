@@ -1,0 +1,13 @@
+int main(void)
+{
+	int a;
+	int b;
+	int c;
+	int d;
+	c=1;
+	b=1;
+	d=1;
+	c=a*b*c*c;
+	a=c/b*c;
+	return 0;
+}

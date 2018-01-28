@@ -1,0 +1,35 @@
+main	:		
+add	a	b	var@1
+cbr	var@1	label@1	label@2
+label@1	:		
+loadI		1	var@2
+add	var@2	@zero	b
+jumpI			label@3
+label@2	:		
+jumpI			label@3
+label@3	:		
+addI	@pc	4	var@3
+store		@sp	var@3
+addI	@sp	4	@sp
+store		a	@sp
+addI	@sp	4	@sp
+jumpI			fun
+subI	@sp	4	@sp
+load		@sp	var@4
+subI	@sp	4	@sp
+load		@sp	var@5
+loadI		0	var@6
+store		var@6	@sp
+addI	@sp	4	@sp
+jump			var@5
+fun	:		
+subI	@sp	4	@sp
+load		@sp	bb
+subI	@sp	4	@sp
+load		@sp	aa
+add	aa	bb	var@7
+subI	@sp	4	@sp
+load		@sp	var@8
+store		None	@sp
+addI	@sp	4	@sp
+jump			var@8
